@@ -1,0 +1,56 @@
+:root {
+  --color1: #000000;
+  --color2: #e3e3e3;
+}
+
+.Sudoku {
+  border: 2px solid var(--color1);
+  width: 564px;
+  height: 564px;
+  float: left;
+}
+
+.big {
+  border: 1px solid var(--color1);
+  width: 186px;
+  height: 186px;
+  float: left;
+}
+
+.small {
+  border: 1px solid var(--color1);
+  width: 60px;
+  height: 60px;
+  float: left;
+  cursor: pointer;
+}
+
+.small, .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: auto;
+  font-size: 40px;
+}
+
+.active {
+  background: var(--color2);
+}
+
+.panel {
+  float: left;
+  width: 250px;
+}
+
+.button {
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background: var(--color2);
+  cursor: pointer;
+}
